@@ -5,7 +5,7 @@
 # ============================================================
 
 # ---------- ЧТО НУЖНО ЗАМЕНИТЬ ----------
-TOKEN = "bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))"  # токен из BotFather
+TOKEN = bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))  # токен из BotFather
 GROUP_ID = -1001234567890                   # ID твоей группы (с минусом!)
 # ----------------------------------------
 import os
